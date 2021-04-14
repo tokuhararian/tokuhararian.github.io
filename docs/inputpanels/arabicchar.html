@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="Arabic Input">
+	<meta name="description" content="Arabic Characters Input Panel for Catalogers= 目録作成者向けアラビア文字入力画面">
+	<meta name="robots" content="noarchive">
+	<meta name="author" content="Yasuhiro Tokuhara">
+	<script type="text/javascript" src="special_characters_input.js" charset="utf-8"></script>
+	<TITLE>Arabic Characters Input Panel for Catalogers</TITLE>
+
+<style type="text/css">
+input {font-family: 'Arial Unicode MS','Geeza Pro';}
+input#text	{ line-height: 2em;
+                  font-size: 2em;
+                  width: 80%; }
+div			{ direction: rtl;
+			margin-bottom: 10px; }
+div.buttons input {
+			font-size: 1em;
+			}
+div.buttons p.hitomoji input {
+			width: 2em;
+			}
+</style>
+</head>
+
+<body>
+<form name="huruf" method="GET" action="xxxxx" >
+<h1>Arabic Characters Input Panel</h1>
+
+<div>
+<input type="text" name="Text" id="Text">
+<input type="reset" value="Clear" onClick="ClearClick()">
+</div>
+
+<div class="buttons">
+<p class="hitomoji">
+共通/アラビア語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/arabic.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="ا" onClick="ButtonClick('ا')">
+<input type="button" value="ب" onClick="ButtonClick('ب')">
+<input type="button" value="ت" onClick="ButtonClick('ت')">
+<input type="button" value="ث" onClick="ButtonClick('ث')">
+<input type="button" value="ج" onClick="ButtonClick('ج')">
+<input type="button" value="ح" onClick="ButtonClick('ح')">
+<input type="button" value="خ" onClick="ButtonClick('خ')">
+<input type="button" value="د" onClick="ButtonClick('د')">
+<input type="button" value="ذ" onClick="ButtonClick('ذ')">
+<input type="button" value="ر" onClick="ButtonClick('ر')">
+<input type="button" value="ز" onClick="ButtonClick('ز')">
+<br />
+<input type="button" value="س" onClick="ButtonClick('س')">
+<input type="button" value="ش" onClick="ButtonClick('ش')">
+<input type="button" value="ص" onClick="ButtonClick('ص')">
+<input type="button" value="ض" onClick="ButtonClick('ض')">
+<input type="button" value="ط" onClick="ButtonClick('ط')">
+<input type="button" value="ظ" onClick="ButtonClick('ظ')">
+<input type="button" value="ع" onClick="ButtonClick('ع')">
+<input type="button" value="غ" onClick="ButtonClick('غ')">
+<input type="button" value="ف" onClick="ButtonClick('ف')">
+<input type="button" value="ق" onClick="ButtonClick('ق')">
+<input type="button" value="ك" onClick="ButtonClick('ك')">
+<br />
+<input type="button" value="ل" onClick="ButtonClick('ل')">
+<input type="button" value="م" onClick="ButtonClick('م')">
+<input type="button" value="ن" onClick="ButtonClick('ن')">
+<input type="button" value="ه" onClick="ButtonClick('ه')">
+<input type="button" value="و" onClick="ButtonClick('و')">
+<input type="button" value="ي" onClick="ButtonClick('ي')">
+<input type="button" value="ة" onClick="ButtonClick('ة')">
+<br />
+<input type="button" value="ء" onClick="ButtonClick('ء')">
+<input type="button" value="آ" onClick="ButtonClick('آ')">
+<input type="button" value="أ" onClick="ButtonClick('أ')">
+<input type="button" value="إ" onClick="ButtonClick('إ')">
+<input type="button" value="ئ" onClick="ButtonClick('ئ')">
+<input type="button" value="ؤ" onClick="ButtonClick('ؤ')">
+<input type="button" value="؟" onClick="ButtonClick('؟')">
+</p>
+<p>
+<input type="button" value="ڤ(v)" onClick="ButtonClick('ڤ')">
+<input type="button" value="ڨ (g)" onClick="ButtonClick('ڨ')">
+</p><p>
+<input type="button" value="Zero Width Non-Joiner" onClick="ButtonClick('‌')">
+<input type="button" value="ى (Alif Maqsura)" onClick="ButtonClick('ى')">
+<input type="button" value="ـ (Tatweel)" onClick="ButtonClick('ـ')">
+</p><p>
+<input type="button" value="َ (Fatha)" onClick="ButtonClick('َ')">
+<input type="button" value="ً (Fathatan)" onClick="ButtonClick('ً')">
+<input type="button" value="ِ (Kasra)" onClick="ButtonClick('ِ')">
+<input type="button" value="ٍ (Kasratan)" onClick="ButtonClick('ٍ')">
+<br />
+<input type="button" value="ُ (Damma)" onClick="ButtonClick('ُ')">
+<input type="button" value="ٌ (Dammatan)" onClick="ButtonClick('ٌ')">
+<input type="button" value="ّ (Shadda)" onClick="ButtonClick('ّ')">
+<input type="button" value="ْ (Sukun)" onClick="ButtonClick('ْ')">
+</p><p class="hitomoji">
+<input type="button" value="٠" onClick="ButtonClick('٠')">
+<input type="button" value="١" onClick="ButtonClick('١')">
+<input type="button" value="٢" onClick="ButtonClick('٢')">
+<input type="button" value="٣" onClick="ButtonClick('٣')">
+<input type="button" value="٤" onClick="ButtonClick('٤')">
+<input type="button" value="٥" onClick="ButtonClick('٥')">
+<input type="button" value="٦" onClick="ButtonClick('٦')">
+<input type="button" value="٧" onClick="ButtonClick('٧')">
+<input type="button" value="٨" onClick="ButtonClick('٨')">
+<input type="button" value="٩" onClick="ButtonClick('٩')">
+</p>
+<p class="hitomoji">
+ペルシア語追加： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/persian.pdf" target="_blanc">こちら</a>
+<br />
+<input type="button" value="پ" onClick="ButtonClick('پ')">
+<input type="button" value="چ" onClick="ButtonClick('چ')">
+<input type="button" value="ژ" onClick="ButtonClick('ژ')">
+<input type="button" value="ک" onClick="ButtonClick('ک')">
+<input type="button" value="گ" onClick="ButtonClick('گ')">
+<input type="button" value="ی" onClick="ButtonClick('ی')">
+<input type="button" value="ۀ" onClick="ButtonClick('ۀ')">
+<br />
+<input type="button" value="۰" onClick="ButtonClick('۰')">
+<input type="button" value="۱" onClick="ButtonClick('۱')">
+<input type="button" value="۲" onClick="ButtonClick('۲')">
+<input type="button" value="۳" onClick="ButtonClick('۳')">
+<input type="button" value="۴" onClick="ButtonClick('۴')">
+<input type="button" value="۵" onClick="ButtonClick('۵')">
+<input type="button" value="۶" onClick="ButtonClick('۶')">
+<input type="button" value="۷" onClick="ButtonClick('۷')">
+<input type="button" value="۸" onClick="ButtonClick('۸')">
+<input type="button" value="۹" onClick="ButtonClick('۹')">
+</p>
+<p class="hitomoji">
+オスマン語/トルコ語追加： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/ottoman.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="ڭ" onClick="ButtonClick('ڭ')">
+</p>
+<p class="hitomoji">
+ウルドゥー語追加： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/urdu.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="ٹ" onClick="ButtonClick('ٹ')">
+<input type="button" value="ڈ" onClick="ButtonClick('ڈ')">
+<input type="button" value="ڑ" onClick="ButtonClick('ڑ')">
+<input type="button" value="ں" onClick="ButtonClick('ں')">
+<input type="button" value="ے" onClick="ButtonClick('ے')">
+<input type="button" value="ۓ" onClick="ButtonClick('ۓ')">
+</p>
+<p><input type="button" value="ہ (Heh Goal)" onClick="ButtonClick('ہ')">
+<input type="button" value="ۂ (Heh Goal+hamza)" onClick="ButtonClick('ۂ')">
+<input type="button" value="ۃ (Teh Marbuta Goal)" onClick="ButtonClick('ۃ')">
+<input type="button" value="ھ (Heh Doachashmee)" onClick="ButtonClick('ھ')">
+</p>
+<p><input type="button" value="ラテン特殊文字入力に切り替える" onclick="location.href='latinextended.html'">
+</p>
+<p><input type="button" value="キリル文字入力に切り替える" onclick="location.href='cyrillic.html'">
+</p></div>
+</form>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="Arabic Input">
+	<meta name="description" content="Latin Special (Extended) Characters Input Panel for Catalogers = 目録作成者向けラテン特殊文字入力画面">
+	<meta name="robots" content="noarchive">
+	<meta name="author" content="Yasuhiro Tokuhara">
+	<script type="text/javascript" src="special_characters_input.js" charset="utf-8"></script>
+	<title>Latin Special (Extended) Characters Input Panel for Catalogers</title>
+
+<style type="text/css">
+input {font-family: 'Arial Unicode MS','Lucida Grande','Times New Roman','Gentium';}
+input#text {line-height: 2em;
+			font-size: 2em;
+			width: 80%;}
+div		{margin-bottom: 10px;}
+div.buttons input {
+			font-size: 1em;
+			}
+div.buttons p.hitomoji input {
+			width: 2em;
+			}
+</style>
+</head>
+
+<body>
+<form name="huruf" method="GET" action="xxxxx" >
+<h1>Latin Special (Extended) Characters Input Panel</h2>
+
+<div>
+<input type="text" NAME="Text" id="Text">
+<input type="reset" value="Clear" onClick="ClearClick()">
+</div>
+
+<div class="buttons">
+<p class="hitomoji">
+共通/アラビア語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/arabic.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="Ā" onClick="ButtonClick('Ā')">
+<input type="button" value="ā" onClick="ButtonClick('ā')">
+<input type="button" value="Á" onClick="ButtonClick('Á')">
+<input type="button" value="á" onClick="ButtonClick('á')">
+<input type="button" value="Ī" onClick="ButtonClick('Ī')">
+<input type="button" value="ī" onClick="ButtonClick('ī')">
+<input type="button" value="Ū" onClick="ButtonClick('Ū')">
+<input type="button" value="ū" onClick="ButtonClick('ū')">
+<br />
+<input type="button" value="Ḍ" onClick="ButtonClick('Ḍ')">
+<input type="button" value="ḍ" onClick="ButtonClick('ḍ')">
+<input type="button" value="Ḥ" onClick="ButtonClick('Ḥ')">
+<input type="button" value="ḥ" onClick="ButtonClick('ḥ')">
+<input type="button" value="ṣ" onClick="ButtonClick('ṣ')">
+<input type="button" value="Ṣ" onClick="ButtonClick('Ṣ')">
+<input type="button" value="Ṭ" onClick="ButtonClick('Ṭ')">
+<input type="button" value="ṭ" onClick="ButtonClick('ṭ')">
+<input type="button" value="Ẓ" onClick="ButtonClick('Ẓ')">
+<input type="button" value="ẓ" onClick="ButtonClick('ẓ')">
+<br />
+<input type="button" value="ʾ" onClick="ButtonClick('ʾ')">
+<input type="button" value="ʿ" onClick="ButtonClick('ʿ')">
+<input type="button" value="ʹ" onClick="ButtonClick('ʹ')">
+</p>
+<p class="hitomoji">
+＋ペルシア語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/persian.pdf" target="_blanc">こちら</a>
+<br />
+<input type="button" value="S̲" onClick="ButtonClick('S̲')">
+<input type="button" value="s̲" onClick="ButtonClick('s̲')">
+<input type="button" value="Z̲" onClick="ButtonClick('Z̲')">
+<input type="button" value="z̲" onClick="ButtonClick('z̲')">
+<input type="button" value="Z̤" onClick="ButtonClick('Z̤')">
+<input type="button" value="z̤" onClick="ButtonClick('z̤')">
+</p>
+<p class="hitomoji">
+＋オスマン語/トルコ語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/ottoman.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="Â" onClick="ButtonClick('Â')">
+<input type="button" value="â" onClick="ButtonClick('â')">
+<input type="button" value="Î" onClick="ButtonClick('Î')">
+<input type="button" value="î" onClick="ButtonClick('î')">
+<input type="button" value="İ" onClick="ButtonClick('İ')">
+<input type="button" value="ı" onClick="ButtonClick('ı')">
+<input type="button" value="Ö" onClick="ButtonClick('Ö')">
+<input type="button" value="ö" onClick="ButtonClick('ö')">
+<input type="button" value="Ü" onClick="ButtonClick('Ü')">
+<input type="button" value="ü" onClick="ButtonClick('ü')">
+<input type="button" value="Û" onClick="ButtonClick('Û')">
+<input type="button" value="û" onClick="ButtonClick('û')">
+<br />
+<input type="button" value="Ç" onClick="ButtonClick('Ç')">
+<input type="button" value="ç" onClick="ButtonClick('ç')">
+<input type="button" value="Ğ" onClick="ButtonClick('Ğ')">
+<input type="button" value="ğ" onClick="ButtonClick('ğ')">
+<input type="button" value="Ḫ" onClick="ButtonClick('Ḫ')">
+<input type="button" value="ḫ" onClick="ButtonClick('ḫ')">
+<input type="button" value="ḳ" onClick="ButtonClick('ḳ')">
+<input type="button" value="Ḳ" onClick="ButtonClick('Ḳ')">
+<input type="button" value="Ñ" onClick="ButtonClick('Ñ')">
+<input type="button" value="ñ" onClick="ButtonClick('ñ')">
+<input type="button" value="Ş" onClick="ButtonClick('Ş')">
+<input type="button" value="ş" onClick="ButtonClick('ş')">
+<input type="button" value="Ż" onClick="ButtonClick('Ż')">
+<input type="button" value="ż" onClick="ButtonClick('ż')">
+</p>
+<p class="hitomoji">
+＋ウルドゥー語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/urdu.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="G̲h̲" onClick="ButtonClick('G̲h̲')">
+<input type="button" value="g̲h̲" onClick="ButtonClick('g̲h̲')">
+<input type="button" value="K̲h̲" onClick="ButtonClick('K̲h̲')">
+<input type="button" value="k̲h̲" onClick="ButtonClick('k̲h̲')">
+<input type="button" value="T̤" onClick="ButtonClick('T̤')">
+<input type="button" value="t̤" onClick="ButtonClick('t̤')">
+<input type="button" value="N̲" onClick="ButtonClick('N̲')">
+<input type="button" value="n̲" onClick="ButtonClick('n̲')">
+<input type="button" value="Ṛ" onClick="ButtonClick('Ṛ')">
+<input type="button" value="ṛ" onClick="ButtonClick('ṛ')">
+</p>
+<p class="hitomoji">
+＋パシュトゥー語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/pushto.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="Ṇ" onClick="ButtonClick('Ṇ')">
+<input type="button" value="ṇ" onClick="ButtonClick('ṇ')">
+</p>
+<p class="hitomoji">
+＋ウイグル語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/uighur.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="Ă" onClick="ButtonClick('Ă')">
+<input type="button" value="ă" onClick="ButtonClick('ă')">
+</p>
+<p class="hitomoji">
+＋ウイグル語新表記（UYY）<br />
+<input type="button" value="Ƣ" onClick="ButtonClick('Ƣ')">
+<input type="button" value="ƣ" onClick="ButtonClick('ƣ')">
+<input type="button" value="Ⱨ" onClick="ButtonClick('Ⱨ')">
+<input type="button" value="ⱨ" onClick="ButtonClick('ⱨ')">
+<input type="button" value="Ⱪ" onClick="ButtonClick('Ⱪ')">
+<input type="button" value="ⱪ" onClick="ButtonClick('ⱪ')">
+<input type="button" value="Ə" onClick="ButtonClick('Ə')">
+<input type="button" value="ə" onClick="ButtonClick('ə')">
+<input type="button" value="Ɵ" onClick="ButtonClick('Ɵ')">
+<input type="button" value="ɵ" onClick="ButtonClick('ɵ')">
+<input type="button" value="Ⱬ" onClick="ButtonClick('Ⱬ')">
+<input type="button" value="ⱬ" onClick="ButtonClick('ⱬ')">
+<input type="button" value="Ⱬ" onClick="ButtonClick('Ⱬ')">
+<input type="button" value="ⱬ" onClick="ButtonClick('ⱬ')">
+</p>
+<p class="hitomoji">
+＋欧文/非LC翻字：ロシア語のLC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/russian.pdf" target="_blanc">こちら</a><br />
+非スラブ諸語キリル文字言語のLC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/nonslav.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="À" onClick="ButtonClick('À')">
+<input type="button" value="à" onClick="ButtonClick('à')">
+<input type="button" value="É" onClick="ButtonClick('É')">
+<input type="button" value="é" onClick="ButtonClick('é')">
+<input type="button" value="È" onClick="ButtonClick('È')">
+<input type="button" value="è" onClick="ButtonClick('è')">
+<input type="button" value="Ē" onClick="ButtonClick('Ē')">
+<input type="button" value="ē" onClick="ButtonClick('ē')">
+<input type="button" value="Ë" onClick="ButtonClick('Ë')">
+<input type="button" value="ë" onClick="ButtonClick('ë')">
+<input type="button" value="Ė" onClick="ButtonClick('Ė')">
+<input type="button" value="ė" onClick="ButtonClick('ė')">
+<input type="button" value="Ḟ" onClick="ButtonClick('Ḟ')">
+<input type="button" value="ḟ" onClick="ButtonClick('ḟ')">
+<br />
+<input type="button" value="H̲" onClick="ButtonClick('H̲')">
+<input type="button" value="h̲" onClick="ButtonClick('h̲')">
+<input type="button" value="Ō" onClick="ButtonClick('Ō')">
+<input type="button" value="ō" onClick="ButtonClick('ō')">
+<input type="button" value="Ṡ" onClick="ButtonClick('Ṡ')">
+<input type="button" value="ṡ" onClick="ButtonClick('ṡ')">
+<input type="button" value="Š" onClick="ButtonClick('Š')">
+<input type="button" value="š" onClick="ButtonClick('š')">
+<input type="button" value="Ṿ" onClick="ButtonClick('Ṿ')">
+<input type="button" value="ṿ" onClick="ButtonClick('ṿ')">
+<input type="button" value="Ẏ" onClick="ButtonClick('Ẏ')">
+<input type="button" value="ẏ" onClick="ButtonClick('ẏ')">
+<input type="button" value="Ž" onClick="ButtonClick('Ž')">
+<input type="button" value="ž" onClick="ButtonClick('ž')">
+<br />
+<input type="button" value="ĭ" onClick="ButtonClick('ĭ')">
+<input type="button" value="T︠S︡" onClick="ButtonClick('T︠S︡')">
+<input type="button" value="t︠s︡" onClick="ButtonClick('t︠s︡')">
+<input type="button" value=" I︠A︡" onClick="ButtonClick('I︠A︡')">
+<input type="button" value="i︠a︡" onClick="ButtonClick('i︠a︡')">
+<input type="button" value="I︠E︡" onClick="ButtonClick('I︠E︡')">
+<input type="button" value="i︠e︡" onClick="ButtonClick('i︠e︡')">
+<input type="button" value="I︠U︡" onClick="ButtonClick('I︠U︡')">
+<input type="button" value="i︠u︡" onClick="ButtonClick('i︠u︡')">
+</p>
+<p>
+<input type="button" value="′ (prime)" onClick="ButtonClick('′')">
+<input type="button" value="″ (double prime)" onClick="ButtonClick('″')">
+</p>
+<p class="hitomoji">
+記号類：<br />
+<input type="button" value=";" onClick="ButtonClick(';')">
+<input type="button" value=":" onClick="ButtonClick(':')">
+<input type="button" value="||" onClick="ButtonClick('||')">
+<input type="button" value="+" onclick="ButtonClick('+')">
+<input type="button" value="--" onclick="ButtonClick('--')">
+<input type="button" value="..." onclick="ButtonClick('...')">
+<input type="button" value="×" onclick="ButtonClick('×')">
+<input type="button" value="[" onclick="ButtonClick('[')">
+<input type="button" value="]" onclick="ButtonClick(']')">
+<input type="button" value="?" onclick="ButtonClick('?')">
+
+</p>
+</div>
+<p><input type="button" value="アラビア文字入力に切り替える" onclick="location.href='arabicchar.html'">
+</p>
+<p><input type="button" value="キリル文字入力に切り替える" onclick="location.href='cyrillic.html'">
+</p>
+</form>
+</body>
+</html>

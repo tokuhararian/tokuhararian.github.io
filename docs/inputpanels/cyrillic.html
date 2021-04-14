@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="keywords" content="Cyrillic Input">
+	<meta name="description" content="Cyrillic (/non-Slavic) Characters Input Panel for Catalogers = 目録作成者向けキリル文字入力画面">
+	<meta name="robots" content="noarchive">
+	<meta name="author" content="Yasuhiro Tokuhara">
+	<script type="text/javascript" src="special_characters_input.js" charset="utf-8"></script>
+	<title>Cyrillic (/non-Slavic) Characters Input Panel for Catalogers</title>
+
+<style type="text/css">
+input {font-family: 'Arial Unicode MS','Lucida Grande','PT Sans','Times New Roman','Gentium';}
+input#text {line-height: 2em;
+			font-size: 2em;
+			width: 80%;}
+div		{margin-bottom: 10px;}
+div.buttons input { font-size: 1em;}
+div.buttons p.hitomoji input {
+			width: 2em;
+			}
+</style>
+</head>
+
+<body>
+<form name="huruf" method="GET" action="xxxxx" >
+<h1>Cyrillic (/non-Slavic) Characters Input Panel for Catalogers</h2>
+
+<div>
+<input type="text" NAME="Text" id="Text">
+<input type="reset" value="Clear" onClick="ClearClick()">
+</div>
+
+<div class="buttons">
+<p class="hitomoji">
+共通/ロシア語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/russian.pdf" target="_blanc">こちら</a><br />
+<input type="button" value="А" onClick="ButtonClick('А')">
+<input type="button" value="а" onClick="ButtonClick('а')"> 
+<input type="button" value="Б" onClick="ButtonClick('Б')">
+<input type="button" value="б" onClick="ButtonClick('б')"> 
+<input type="button" value="В" onClick="ButtonClick('В')">
+<input type="button" value="в" onClick="ButtonClick('в')"> 
+<input type="button" value="Г" onClick="ButtonClick('Г')">
+<input type="button" value="г" onClick="ButtonClick('г')"> 
+<input type="button" value="Д" onClick="ButtonClick('Д')">
+<input type="button" value="д" onClick="ButtonClick('д')"> 
+<input type="button" value="Е" onClick="ButtonClick('Е')">
+<input type="button" value="е" onClick="ButtonClick('е')">
+<br />
+<input type="button" value="Ж" onClick="ButtonClick('Ж')">
+<input type="button" value="ж" onClick="ButtonClick('ж')"> 
+<input type="button" value="З" onClick="ButtonClick('З')">
+<input type="button" value="з" onClick="ButtonClick('з')"> 
+<input type="button" value="И" onClick="ButtonClick('И')">
+<input type="button" value="и" onClick="ButtonClick('и')"> 
+<input type="button" value="Й" onClick="ButtonClick('Й')">
+<input type="button" value="й" onClick="ButtonClick('й')"> 
+<input type="button" value="К" onClick="ButtonClick('К')">
+<input type="button" value="к" onClick="ButtonClick('к')"> 
+<input type="button" value="Л" onClick="ButtonClick('Л')">
+<input type="button" value="л" onClick="ButtonClick('л')">
+<br />
+<input type="button" value="М" onClick="ButtonClick('М')">
+<input type="button" value="м" onClick="ButtonClick('м')"> 
+<input type="button" value="Н" onClick="ButtonClick('Н')">
+<input type="button" value="н" onClick="ButtonClick('н')"> 
+<input type="button" value="О" onClick="ButtonClick('О')">
+<input type="button" value="о" onClick="ButtonClick('о')"> 
+<input type="button" value="П" onClick="ButtonClick('П')">
+<input type="button" value="п" onClick="ButtonClick('п')"> 
+<input type="button" value="Р" onClick="ButtonClick('Р')">
+<input type="button" value="р" onClick="ButtonClick('р')"> 
+<input type="button" value="С" onClick="ButtonClick('С')">
+<input type="button" value="с" onClick="ButtonClick('с')">
+<br />
+<input type="button" value="Т" onClick="ButtonClick('Т')">
+<input type="button" value="т" onClick="ButtonClick('т')">
+<input type="button" value="У" onClick="ButtonClick('У')">
+<input type="button" value="у" onClick="ButtonClick('у')">
+<input type="button" value="Ф" onClick="ButtonClick('Ф')">
+<input type="button" value="ф" onClick="ButtonClick('ф')">
+<input type="button" value="Х" onClick="ButtonClick('Х')">
+<input type="button" value="х" onClick="ButtonClick('х')">
+<input type="button" value="Ц" onClick="ButtonClick('Ц')">
+<input type="button" value="ц" onClick="ButtonClick('ц')">
+<input type="button" value="Ч" onClick="ButtonClick('Ч')">
+<input type="button" value="ч" onClick="ButtonClick('ч')">
+<br />
+<input type="button" value="Ш" onClick="ButtonClick('Ш')">
+<input type="button" value="ш" onClick="ButtonClick('ш')">
+<input type="button" value="Щ" onClick="ButtonClick('Щ')">
+<input type="button" value="щ" onClick="ButtonClick('щ')">
+<input type="button" value="Ъ" onClick="ButtonClick('Ъ')">
+<input type="button" value="ъ" onClick="ButtonClick('ъ')">
+<input type="button" value="Ы" onClick="ButtonClick('Ы')">
+<input type="button" value="ы" onClick="ButtonClick('ы')">
+<input type="button" value="Ь" onClick="ButtonClick('Ь')">
+<input type="button" value="ь" onClick="ButtonClick('ь')">
+<input type="button" value="Э" onClick="ButtonClick('Э')">
+<input type="button" value="э" onClick="ButtonClick('э')">
+<br />
+<input type="button" value="Ю" onClick="ButtonClick('Ю')">
+<input type="button" value="ю" onClick="ButtonClick('ю')">
+<input type="button" value="Я" onClick="ButtonClick('Я')">
+<input type="button" value="я" onClick="ButtonClick('я')">
+<br />
+<p>
+＋使われなくなった文字</a><br />
+<input type="button" value="І" onClick="ButtonClick('І')">
+<input type="button" value="і" onClick="ButtonClick('і')">
+<input type="button" value="Ѣ (Yat)" onClick="ButtonClick('Ѣ')">
+<input type="button" value="ѣ" onClick="ButtonClick('ѣ')">
+<input type="button" value="Ѳ (Fita)" onClick="ButtonClick('Ѳ')">
+<input type="button" value="ѳ" onClick="ButtonClick('ѳ')">
+<input type="button" value="Ѵ (Izhitsa)" onClick="ButtonClick('Ѵ')">
+<input type="button" value="ѵ" onClick="ButtonClick('ѵ')">
+<br />
+<input type="button" value="Ѕ (Dze)" onClick="ButtonClick('Ѕ')">
+<input type="button" value="ѕ" onClick="ButtonClick('ѕ')">
+<input type="button" value="Ѯ" onClick="ButtonClick('Ѯ')">
+<input type="button" value="ѯ" onClick="ButtonClick('ѯ')">
+<input type="button" value="Ѱ (Psi)" onClick="ButtonClick('Ѱ')">
+<input type="button" value="ѱ" onClick="ButtonClick('ѱ')">
+<input type="button" value="Ѡ" onClick="ButtonClick('Ѡ')">
+<input type="button" value="ѡ" onClick="ButtonClick('ѡ')">
+<br />
+<input type="button" value="Ѫ" onClick="ButtonClick('Ѫ')">
+<input type="button" value="ѫ" onClick="ButtonClick('ѫ')">
+<input type="button" value="Ѧ" onClick="ButtonClick('Ѧ')">
+<input type="button" value="ѧ" onClick="ButtonClick('ѧ')">
+<input type="button" value="Ѭ" onClick="ButtonClick('Ѭ')">
+<input type="button" value="ѭ" onClick="ButtonClick('ѭ')">
+<input type="button" value="Ѩ" onClick="ButtonClick('Ѩ')">
+<input type="button" value="ѩ" onClick="ButtonClick('ѩ')">
+</p>
+<p>
+＋カザフ語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/nonslav.pdf" target="_blanc">こちら</a>
+<br />
+<input type="button" value="Ё" onClick="ButtonClick('Ё')">
+<input type="button" value="ё" onClick="ButtonClick('ё')">
+<input type="button" value="Ә" onClick="ButtonClick('Ә')">
+<input type="button" value="ә" onClick="ButtonClick('ә')">
+<input type="button" value="Ғ" onClick="ButtonClick('Ғ')">
+<input type="button" value="ғ" onClick="ButtonClick('ғ')">
+<input type="button" value="Қ" onClick="ButtonClick('Қ')">
+<input type="button" value="қ" onClick="ButtonClick('қ')">
+<input type="button" value="Ң" onClick="ButtonClick('Ң')">
+<input type="button" value="ң" onClick="ButtonClick('ң')">
+<input type="button" value="Ө" onClick="ButtonClick('Ө')">
+<input type="button" value="ө" onClick="ButtonClick('ө')"><br />
+<input type="button" value="Ұ" onClick="ButtonClick('Ұ')">
+<input type="button" value="ұ" onClick="ButtonClick('ұ')">
+<input type="button" value="Һ" onClick="ButtonClick('Һ')">
+<input type="button" value="һ" onClick="ButtonClick('һ')">
+<input type="button" value="І" onClick="ButtonClick('І')">
+<input type="button" value="і" onClick="ButtonClick('і')">
+</p>
+<p>
+＋ウズベク語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/nonslav.pdf" target="_blanc">こちら</a>
+<br />
+<input type="button" value="Ў" onClick="ButtonClick('Ў')">
+<input type="button" value="ў" onClick="ButtonClick('ў')">
+</p>
+<p>
+＋タジク語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/nonslav.pdf" target="_blanc">こちら</a>
+<br />
+<input type="button" value="Ӣ" onClick="ButtonClick('Ӣ')">
+<input type="button" value="ӣ" onClick="ButtonClick('ӣ')">
+<input type="button" value="Ӯ" onClick="ButtonClick('Ӯ')">
+<input type="button" value="ӯ" onClick="ButtonClick('ӯ')">
+<input type="button" value="Ҳ" onClick="ButtonClick('Ҳ')">
+<input type="button" value="ҳ" onClick="ButtonClick('ҳ')">
+<input type="button" value="Ҷ" onClick="ButtonClick('Ҷ')">
+<input type="button" value="ҷ" onClick="ButtonClick('ҷ')">
+</p>
+<p>
+＋タタール語： LC翻字規則は<a href="http://www.loc.gov/catdir/cpso/romanization/nonslav.pdf" target="_blanc">こちら</a>
+<br />
+<input type="button" value="Җ" onClick="ButtonClick('Җ')">
+<input type="button" value="җ" onClick="ButtonClick('җ')">
+<input type="button" value="Ӓ" onClick="ButtonClick('Ӓ')">
+<input type="button" value="ӓ" onClick="ButtonClick('ӓ')">
+</p>
+<p>
+記号類：<br />
+<input type="button" value=";" onClick="ButtonClick(';')">
+<input type="button" value=":" onClick="ButtonClick(':')">
+<input type="button" value="||" onClick="ButtonClick('||')">
+<input type="button" value="+" onclick="ButtonClick('+')">
+<input type="button" value="--" onclick="ButtonClick('--')">
+<input type="button" value="..." onclick="ButtonClick('...')">
+<input type="button" value="×" onclick="ButtonClick('×')">
+<input type="button" value="[" onclick="ButtonClick('[')">
+<input type="button" value="]" onclick="ButtonClick(']')">
+<input type="button" value="?" onclick="ButtonClick('?')">
+</p>
+</div>
+<p><input type="button" value="アラビア文字入力に切り替える" onclick="location.href='arabicchar.html'">
+</p>
+<p><input type="button" value="ラテン特殊文字入力に切り替える" onclick="location.href='latinextended.html'">
+</p></form>
+</body>
+</html>
